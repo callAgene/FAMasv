@@ -1,0 +1,22 @@
+Package: FAMasv
+Type: Package
+Title: Species-Resolved Household Sharing of Amplicon Sequence Variants
+Version: 0.3.0
+Authors@R: person("bingzhang@ucas.ac.cn", email = "bingzhang@ucas.ac.cn",
+    role = c("aut", "cre"))
+Author: bingzhang@ucas.ac.cn [aut, cre]
+Maintainer: bingzhang@ucas.ac.cn <bingzhang@ucas.ac.cn>
+Description: Quantifies identical amplicon sequence variant sharing and
+    within-species Jaccard similarity in paired households. Uses carrier-restricted
+    one-to-one permutations with no original household matches, separate
+    multiple-testing correction for both metrics, and household bootstraps for
+    visualization. Includes de-identified oral example data,
+    transparent parameters, species
+    selection, and batch figure and table export.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: ggplot2 (>= 3.4.0), stats, utils, grDevices, methods
+Suggests: testthat (>= 3.0.0), phyloseq
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
